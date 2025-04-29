@@ -1,17 +1,34 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  /* Header */
   header {
-    background-color: #007BFF;
+    background: #007BFF;
     color: white;
     padding: 60px 20px;
     text-align: center;
     border-radius: 0 0 30px 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
   }
   
   .btn {
@@ -29,6 +46,22 @@ body {
   .btn:hover {
     background: #0056b3;
     color: white;
+  }
+  
+  /* Sections */
+  section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: white;
+    margin-top: 40px;
+    border-radius: 20px 20px 0 0;
   }
   
 
